@@ -1,0 +1,4 @@
+../dut_src/router.v
+../sim_src/Packet.sv
+../sim_src/stimulator.sv
+../sim_src/tb.v

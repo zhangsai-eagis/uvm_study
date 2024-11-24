@@ -1,0 +1,4 @@
+/home/saizhang/sv_test/cases/router/dut_src/router.v
+/home/saizhang/sv_test/cases/router/sim_src/Packet.sv
+/home/saizhang/sv_test/cases/router/sim_src/stimulator.sv
+/home/saizhang/sv_test/cases/router/sim_src/tb.v

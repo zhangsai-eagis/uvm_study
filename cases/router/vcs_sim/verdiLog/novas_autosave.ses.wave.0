@@ -1,0 +1,224 @@
+Magic 271485
+Revision Verdi_R-2020.12-SP1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 1920 608 158 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/saizhang/sv_test/cases/router/vcs_sim/Tb.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+windowTimeUnit 1ns
+
+; waveform viewport range
+zoom 0.000000 20194.950000 1n
+cursor 0.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 81
+; marker line index
+markerPos 169
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home/saizhang/sv_test/cases/router/vcs_sim/Tb.fsdb"
+addSignal -h 15 /tb/dut/reset_n
+addSignal -h 15 -holdScope frame_n[15:0]
+addSignal -h 15 -holdScope valid_n[15:0]
+addSignal -h 15 -holdScope din[15:0]
+addSignal -h 15 -holdScope dout[15:0]
+addSignal -h 15 -holdScope busy_n[15:0]
+addSignal -h 15 -holdScope valido_n[15:0]
+addSignal -h 15 -holdScope frameo_n[15:0]
+addGroup "G2"
+addGroup "G3"
+addGroup "G4"
+addGroup "G5"
+addSignal -h 15 /tb/dut/rts2/reset
+addSignal -h 15 -holdScope clock
+addSignal -h 15 -holdScope frame_n
+addSignal -h 15 -holdScope valid_n
+addSignal -h 15 -holdScope din
+addSignal -h 15 -holdScope iarbin[15:0]
+addSignal -h 15 -holdScope arbout[15:0]
+addSignal -h 15 -holdScope arbhead
+addSignal -h 15 -holdScope okstep
+addSignal -h 15 -holdScope dout[15:0]
+addSignal -h 15 -holdScope busy_n
+addSignal -h 15 -holdScope valido_n[15:0]
+addSignal -h 15 -holdScope frameo_n[15:0]
+addGroup "G6"
+addSignal -h 15 /tb/dut/rts2/addrsel_g[4:0]
+addSignal -h 15 -holdScope arbena
+addSignal -h 15 -holdScope addrsel[4:0]
+addGroup "G7"
+addSignal -expanded -h 15 /tb/dut/rts2/frameo_n[15:0]
+addSignal -h 15 -holdScope frameo_n[15]
+addSignal -h 15 -holdScope frameo_n[14]
+addSignal -h 15 -holdScope frameo_n[13]
+addSignal -h 15 -holdScope frameo_n[12]
+addSignal -h 15 -holdScope frameo_n[11]
+addSignal -h 15 -holdScope frameo_n[10]
+addSignal -h 15 -holdScope frameo_n[9]
+addSignal -h 15 -holdScope frameo_n[8]
+addSignal -h 15 -holdScope frameo_n[7]
+addSignal -h 15 -holdScope frameo_n[6]
+addSignal -h 15 -holdScope frameo_n[5]
+addSignal -h 15 -holdScope frameo_n[4]
+addSignal -h 15 -holdScope frameo_n[3]
+addSignal -h 15 -holdScope frameo_n[0]
+addSignal -h 15 -holdScope arbin[3]
+addSignal -h 15 /tb/dut/rts3/frameo_n[5]
+addGroup "G8"
+addSignal -h 15 /tb/dut/rts2/arbin[15:0]
+addSignal -h 15 -holdScope arbhead
+addSignal -h 15 /tb/dut/rts1/arbin[15:0]
+addGroup "G9"
+addSignal -h 15 /tb/dut/okstep[15:0]
+addSignal -h 15 -holdScope arb_head_num[3:0]
+addGroup "G10"
+addSignal -h 15 /tb/dut/rts2/valido_n[15:0]
+addSignal -h 15 -holdScope valid_n
+addSignal -h 15 -holdScope vald1_n
+addSignal -h 15 -holdScope valido_n[3]
+addGroup "G11"
+addSignal -h 15 /tb/dut/frame_n[15:0]
+addSignal -expanded -h 15 -holdScope din[15:0]
+addSignal -h 15 -holdScope din[15]
+addSignal -h 15 -holdScope din[14]
+addSignal -h 15 -holdScope din[13]
+addSignal -h 15 -holdScope din[12]
+addSignal -h 15 -holdScope din[11]
+addSignal -h 15 -holdScope din[10]
+addSignal -h 15 -holdScope din[9]
+addSignal -h 15 -holdScope din[8]
+addSignal -h 15 -holdScope din[7]
+addSignal -h 15 -holdScope din[6]
+addSignal -h 15 -holdScope din[5]
+addSignal -h 15 -holdScope din[4]
+addSignal -h 15 -holdScope din[3]
+addSignal -h 15 -holdScope din[2]
+addSignal -h 15 -holdScope din[0]
+addSignal -expanded -h 15 -holdScope valid_n[15:0]
+addSignal -h 15 -holdScope valid_n[15]
+addSignal -h 15 -holdScope valid_n[14]
+addSignal -h 15 -holdScope valid_n[13]
+addSignal -h 15 -holdScope valid_n[12]
+addSignal -h 15 -holdScope valid_n[11]
+addSignal -h 15 -holdScope valid_n[10]
+addSignal -h 15 -holdScope valid_n[9]
+addSignal -h 15 -holdScope valid_n[8]
+addSignal -h 15 -holdScope valid_n[7]
+addSignal -h 15 -holdScope valid_n[6]
+addSignal -h 15 -holdScope valid_n[5]
+addSignal -h 15 -holdScope valid_n[4]
+addSignal -h 15 -holdScope valid_n[3]
+addSignal -h 15 -holdScope valid_n[2]
+addSignal -h 15 -holdScope valid_n[0]
+addSignal -h 15 /tb/dut/rts2/valido_n[3]
+addSignal -h 15 /tb/dut/din[2]
+addSignal -h 15 -holdScope valid_n[2]
+addSignal -h 15 -holdScope dout[3]
+addSignal -h 15 /tb/dut/rts2/vald1_n
+addSignal -h 15 -holdScope busy_n
+addSignal -h 15 -holdScope valid_n
+addSignal -expanded -h 15 /tb/dut/dout[15:0]
+addSignal -h 15 -holdScope dout[15]
+addSignal -h 15 -holdScope dout[14]
+addSignal -h 15 -holdScope dout[13]
+addSignal -h 15 -holdScope dout[12]
+addSignal -h 15 -holdScope dout[11]
+addSignal -h 15 -holdScope dout[10]
+addSignal -h 15 -holdScope dout[9]
+addSignal -h 15 -holdScope dout[8]
+addSignal -h 15 -holdScope dout[7]
+addSignal -h 15 -holdScope dout[6]
+addSignal -h 15 -holdScope dout[5]
+addSignal -h 15 -holdScope dout[4]
+addSignal -h 15 -holdScope dout[2]
+addSignal -h 15 -holdScope dout[3]
+addSignal -h 15 -holdScope dout[1]
+addSignal -h 15 -holdScope dout[0]
+addGroup "G12"
+addSignal -h 15 /tb/dut/rts2/arbout[15:0]
+addSignal -h 15 -holdScope arbin[15:0]
+addSignal -h 15 -holdScope arbhead
+addSignal -h 15 /tb/dut/dout[15:0]
+addGroup "G13"
+addSignal -h 15 /tb/dut/din[1]
+addSignal -h 15 -holdScope valid_n[1]
+addSignal -h 15 -holdScope frame_n[1]
+addGroup "G14"
+addSignal -h 15 /tb/dut/clock
+addSignal -h 15 /tb/dut/rts2/frameo_n[2]
+addGroup "G15"
+addSignal -h 15 /tb/dut/rts1/arbena
+addSignal -h 15 -holdScope frame2_n
+addGroup "G16"
+addSignal -expanded -h 15 /tb/dut/din[15:0]
+addSignal -h 15 -holdScope din[15]
+addSignal -h 15 -holdScope din[14]
+addSignal -h 15 -holdScope din[13]
+addSignal -h 15 -holdScope din[12]
+addSignal -h 15 -holdScope din[11]
+addSignal -h 15 -holdScope din[10]
+addSignal -h 15 -holdScope din[9]
+addSignal -h 15 -holdScope din[8]
+addSignal -h 15 -holdScope din[7]
+addSignal -h 15 -holdScope din[6]
+addSignal -h 15 -holdScope din[5]
+addSignal -h 15 -holdScope din[4]
+addSignal -h 15 -holdScope din[3]
+addSignal -h 15 -holdScope din[2]
+addSignal -h 15 -holdScope din[1]
+addSignal -h 15 -holdScope din[0]
+addGroup "G17"
+addSignal -expanded -h 15 /tb/dut_if/cb/frame_n[15:0]
+addSignal -h 15 -holdScope frame_n[15]
+addSignal -h 15 -holdScope frame_n[14]
+addSignal -h 15 -holdScope frame_n[13]
+addSignal -h 15 -holdScope frame_n[12]
+addSignal -h 15 -holdScope frame_n[11]
+addSignal -h 15 -holdScope frame_n[10]
+addSignal -h 15 -holdScope frame_n[9]
+addSignal -h 15 -holdScope frame_n[8]
+addSignal -h 15 -holdScope frame_n[7]
+addSignal -h 15 -holdScope frame_n[6]
+addSignal -h 15 -holdScope frame_n[5]
+addSignal -h 15 -holdScope frame_n[4]
+addSignal -h 15 -holdScope frame_n[3]
+addSignal -h 15 -holdScope frame_n[2]
+addSignal -h 15 -holdScope frame_n[1]
+addSignal -h 15 -holdScope frame_n[0]
+addGroup "G18"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

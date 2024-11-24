@@ -1,0 +1,148 @@
+simSetSimulator "-vcssv" -exec "./simv" -args \
+           "+ntb_random_seed_automatic +UVM_TESTNAME=m_test1 verdi +UVM_VERDI_TRACE=UVM_AWARE+RAL+HIER+COMPWAVE +UVM_TR_RECORD" \
+           -uvmDebug on -simDelim
+debImport "-i" "-simflow" "-dbdir" "./simv.daidir"
+srcTBInvokeSim
+srcTBRunSim
+srcTBHier -treeSel "uvm_test_top.env"
+srcTBHier -treeSel "uvm_test_top.env"
+srcTBHier -treeSel "uvm_test_top.env"
+srcTBHier -showTreeDef
+srcTBHier -treeSel "uvm_test_top.env.m_agt\[0\]"
+srcTBHier -treeSel "uvm_test_top.env.m_agt\[0\]"
+srcTBHier -treeSel "uvm_test_top.env.m_agt\[0\]"
+srcTBHier -treeSel "uvm_test_top.env"
+srcTBHier -showTreeDef
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 21 -pos 3 -win $_nTrace1
+srcAction -pos 21 3 3 -win $_nTrace1 -name "m_seq" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -signal "this.port_id" -line 35 -pos 1
+srcSelect -win $_nTrace1 -range {36 36 1 15 1 1}
+srcTBAddBrkPnt -line 36 -file \
+           /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_transation.sv
+srcTBSimReset
+srcTBRunSim
+srcTBDVSelect -tab 0 -range {0-0} 
+srcTBDVShowDefine -win $_nTrace1 -tab 0
+srcTBDVDC -win $_nTrace1 -tab 0
+srcTBDVExpand -win $_nTrace1 -tab 0 -item {1} -level 1
+srcTBDVSelect -tab 0 -range {0 40-40} 
+srcTBDVExpand -win $_nTrace1 -tab 0 -item {1 40} -level 1
+srcTBDVSelect -tab 0 -range {0 40 3-3} 
+srcTBDVSelect -tab 0 -range {0 40 4-4} 
+srcTBDVSelect -tab 0 -range {0 40 5-5} 
+srcTBDVSelect -tab 0 -range {0 40 6-6} 
+srcTBDVSelect -tab 0 -range {0 40 7-7} 
+srcTBDVSelect -tab 0 -range {0 40 8-8} 
+srcTBDVSelect -tab 0 -range {0 40 9-9} 
+srcTBDVSelect -tab 0 -range {0 40 28-28} 
+srcTBDVExpand -win $_nTrace1 -tab 0 -item {1 40 28} -level 1
+srcTBDVCollapse -win $_nTrace1 -tab 0 -item {1 40 28} -level 1
+srcDeselectAll -win $_nTrace1
+srcBackwardHistory -win $_nTrace1
+srcTBStepIn
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepNext
+srcTBStepOut
+srcTBStepOut
+srcTBStepOut
+srcTBStepOut
+srcTBDVSelect -tab 0 -range {0-0} 
+srcTBDVShowDefine -win $_nTrace1 -tab 0
+srcTBDVDC -win $_nTrace1 -tab 0
+srcTBDVExpand -win $_nTrace1 -tab 0 -item {1} -level 1
+srcTBDVSelect -tab 0 -range {0 39-39} 
+srcTBDVShowDefine -win $_nTrace1 -tab 0
+srcTBDVDC -win $_nTrace1 -tab 0
+srcTBDVShowDefine -win $_nTrace1 -tab 0
+srcTBDVDC -win $_nTrace1 -tab 0
+srcBackwardHistory -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcBackwardHistory -win $_nTrace1
+srcBackwardHistory -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcTBDVSelect -tab 0 -range {0 40-40} 
+srcTBDVExpand -win $_nTrace1 -tab 0 -item {1 40} -level 1
+srcTBDVSelect -tab 0 -range {0 40 5-5} 
+srcTBDVSelect -tab 0 -range {0 40 6-6} 
+srcTBDVSelect -tab 0 -range {0 40 28-28} 
+srcTBDVExpand -win $_nTrace1 -tab 0 -item {1 40 28} -level 1
+srcTBDVCollapse -win $_nTrace1 -tab 0 -item {1 40 28} -level 1
+srcTBRunSim
+srcTBStepNext
+srcTBRunSim
+srcTBDVSelect -tab 0 -range {0-0} 
+srcTBDVShowDefine -win $_nTrace1 -tab 0
+srcTBDVDC -win $_nTrace1 -tab 0
+srcTBDVExpand -win $_nTrace1 -tab 0 -item {1} -level 1
+srcTBDVSelect -tab 0 -range {0 40-40} 
+srcTBDVShowDefine -win $_nTrace1 -tab 0
+srcTBDVDC -win $_nTrace1 -tab 0
+srcTBDVExpand -win $_nTrace1 -tab 0 -item {1 40} -level 1
+srcTBDVSelect -tab 0 -range {0 40 6-6} 
+srcTBDVSelect -tab 0 -range {0 40 28-28} 
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 37 -pos 4 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 37 -pos 2 -win $_nTrace1
+debExit

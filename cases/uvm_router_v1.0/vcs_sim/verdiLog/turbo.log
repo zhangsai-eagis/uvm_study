@@ -1,0 +1,8 @@
+Command Line: /usr/Synopsys/verdi/R-2020.12-SP1/platform/LINUXAMD64/bin/Novas -i -simflow -simBin ./simv -simDelim +ntb_random_seed_automatic +UVM_TESTNAME=m_test1 verdi +UVM_VERDI_TRACE=UVM_AWARE+RAL+HIER+COMPWAVE +UVM_TR_RECORD
+uname(Linux localhost.localdomain 3.10.0-1160.76.1.el7.x86_64 #1 SMP Wed Aug 10 16:21:17 UTC 2022 x86_64)
+[MessageBox] The KDB has been updated by other processes. Reload the KDB to update it; otherwise, you may get unexpected results.
+Failed to bind ID for line(129) of file(/home/saizhang/sv_test/cases/uvm_router_v1.0/dut_src/router.v)
+[MessageBox] The KDB has been updated by other processes. Reload the KDB to update it; otherwise, you may get unexpected results.
+BeginLine(0) < 1
+BeginLine(0) < 1
+BeginLine(0) < 1

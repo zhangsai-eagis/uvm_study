@@ -1,0 +1,241 @@
+Invoking simulator...
+Verdi>./simv +ntb_random_seed_automatic +UVM_TESTNAME=m_test1 verdi +UVM_VERDI_TRACE=UVM_AWARE+RAL+HIER+COMPWAVE +UVM_TR_RECORD -sml=verdi +fsdb+gate=off -ucli2Proc -ucli
+Notice: timing checks disabled with +notimingcheck at compile-time
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version Q-2020.03-SP2-7_Full64; Runtime version Q-2020.03-SP2-7_Full64;  Nov 23 22:31 2024
+NOTE: automatic random seed used: 3697362194
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+  ***********       IMPORTANT RELEASE NOTES         ************
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+*Verdi* Loading libsscore_vcs202003.so
+FSDB Dumper for VCS, Release Verdi_R-2020.12-SP1, Linux x86_64/64bit, 03/02/2021
+(C) 1996 - 2021 by Synopsys, Inc.
+*Verdi* : Create FSDB file '/home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/inter.fsdb'
+*Verdi* : Flush all FSDB Files at 0 ns.
+*Verdi* : Enable RPC Server(121414)
+Verdi>fsdbDumpvars 0 "tb.dut.rts0.frame_n"  +all +trace_process;fsdbDumpvars 0 "tb.dut.rts0.clock"  +all +trace_process;fsdbDumpvars 0 "tb.dut.rts0.din"  +all +trace_process;fsdbDumpvars 0 "tb.dut.rts0.frameo_n"  +all +trace_process;fsdbDumpvars 0 "tb.dut.rts0.dout"  +all +trace_process;fsdbDumpvars 0 "tb.dut.frame_n"  +all +trace_process;fsdbDumpvars 0 "tb.dut.valid_n"  +all +trace_process;fsdbDumpvars 0 "tb.dut.din"  +all +trace_process;fsdbDumpvars 0 "tb.dut.frameo_n"  +all +trace_process;fsdbDumpvars 0 "tb.dut.valido_n"  +all +trace_process;fsdbDumpvars 0 "tb.dut.dout"  +all +trace_process;fsdbDumpvars 0 "tb.dut.busy_n"  +all +trace_process
+*Verdi* : Dumping the signal (tb.dut.rts0.frame_n).
+*Verdi* : Dumping the signal (tb.dut.rts0.clock).
+*Verdi* : Dumping the signal (tb.dut.rts0.din).
+*Verdi* : Dumping the signal (tb.dut.rts0.frameo_n).
+*Verdi* : Dumping the signal (tb.dut.rts0.dout).
+*Verdi* : Dumping the signal (tb.dut.frame_n).
+*Verdi* : Dumping the signal (tb.dut.valid_n).
+*Verdi* : Dumping the signal (tb.dut.din).
+*Verdi* : Dumping the signal (tb.dut.frameo_n).
+*Verdi* : Dumping the signal (tb.dut.valido_n).
+*Verdi* : Dumping the signal (tb.dut.dout).
+*Verdi* : Dumping the signal (tb.dut.busy_n).
+*Verdi* : Flush all FSDB Files at 0 ns.
+1
+2
+3
+Verdi>run
+*Verdi* Enable Verdi Message Catcher.
+*Verdi* : Begin dumping the Class Object by file (/usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/verdi/component.config).
+*Verdi* : End of class object dumping.
+UVM_INFO /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/verdi/uvm_custom_install_verdi_recorder.sv(274) @ 0: reporter [VERDI_TR_AUTO] +UVM_TR_RECORD implicitly enables recording_details to UVM_FULL for all components. For explicit control use +UVM_DISABLE_AUTO_COMPONENT and set recording_detail on components accordingly
+*Verdi* Enable Verdi Factory Dumping.
+UVM_INFO @ 0: reporter [RNTST] Running test m_test1...
+*Verdi* WARNING: Env/runtime option has specified fsdbfile name as "/home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/inter.fsdb". Fsdbfile name in task "Tb.fsdb" is ignored.
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+VCD+ Writer Q-2020.03-SP2-7_Full64 Copyright (c) 1991-2020 by Synopsys Inc.
+UVM_INFO ../sim_src/m_env.sv(39) @ 0: uvm_test_top.env [ENV] @                   0 ns
+*Verdi* Enable Verdi Recorder.
+Info: Verdi UVM 1.1d Hooks File 07/11/2013 
+UVM_INFO ../sim_src/m_transation.sv(32) @ 0: uvm_test_top.env.m_agt[0].m_sqr@@uvm_sequence [SEQ] This transation's src addr is uvm_test_top.env.m_agt[0].m_sqr.uvm_sequence
+UVM_INFO ../sim_src/m_transation.sv(33) @ 0: uvm_test_top.env.m_agt[0].m_sqr@@uvm_sequence [SEQ] This transation's src addr is 0
+to check the this      140736886669680
+to check the this           0
+UVM_INFO ../sim_src/m_driver.sv(28) @ 1: uvm_test_top.env.m_agt[0].m_drv [DRV] got one item 
+ -----------------------------------------------------------------------------------------------
+Name                           Type          Size  Value                                       
+-----------------------------------------------------------------------------------------------
+req                            m_transation  -     @4195                                       
+  src                          integral      4     'h0                                         
+  dst                          integral      4     'h0                                         
+  data                         integral      8     'h9a                                        
+  begin_time                   time          64    1                                           
+  depth                        int           32    'd2                                         
+  parent sequence (name)       string        12    uvm_sequence                                
+  parent sequence (full name)  string        44    uvm_test_top.env.m_agt[0].m_sqr.uvm_sequence
+  sequencer                    string        31    uvm_test_top.env.m_agt[0].m_sqr             
+-----------------------------------------------------------------------------------------------
+
+UVM_INFO ../sim_src/m_monitor.sv(33) @ 125: uvm_test_top.env.m_agt[0].m_mon [monitor] The channel %0d start receive data
+
+Stop point #3 @ 125 ns;  
+Verdi>next
+m_monitor.sv, 49 :     @(posedge dut_if.clk);
+Verdi>next
+router.v, 157 :     assign dout[0] =
+Verdi>run
+Stop point #3 @ 135 ns;  
+Verdi>run
+Stop point #3 @ 145 ns;  
+Verdi>next
+m_monitor.sv, 49 :     @(posedge dut_if.clk);
+Verdi>next
+tb.v, 87 :     input  dout;
+Verdi>run
+Stop point #3 @ 155 ns;  
+Verdi>run
+Stop point #2 @ 155 ns;  
+Verdi>stop -disable 3
+3
+Verdi>run
+Stop point #2 @ 165 ns;  
+Verdi>run
+Stop point #2 @ 175 ns;  
+Verdi>run
+Stop point #2 @ 185 ns;  
+Verdi>run
+Stop point #2 @ 195 ns;  
+Verdi>run
+UVM_INFO ../sim_src/m_driver.sv(35) @ 205: uvm_test_top.env.m_agt[0].m_drv [DRV] send one item 
+ ---------------------------------------
+Name          Type          Size  Value
+---------------------------------------
+req           m_transation  -     @4584
+  src         integral      4     'h0  
+  dst         integral      4     'h0  
+  data        integral      8     'hfe 
+  begin_time  time          64    1    
+---------------------------------------
+
+
+Stop point #2 @ 205 ns;  
+Verdi>run
+UVM_INFO ../sim_src/m_transation.sv(39) @ 205: uvm_test_top.env.m_agt[0].m_sqr@@uvm_sequence [SEQ] generate one item 
+ -----------------------------------------------------------------------------------------------
+Name                           Type          Size  Value                                       
+-----------------------------------------------------------------------------------------------
+req                            m_transation  -     @4195                                       
+  src                          integral      4     'h0                                         
+  dst                          integral      4     'h0                                         
+  data                         integral      8     'h9a                                        
+  begin_time                   time          64    1                                           
+  end_time                     time          64    205                                         
+  depth                        int           32    'd2                                         
+  parent sequence (name)       string        12    uvm_sequence                                
+  parent sequence (full name)  string        44    uvm_test_top.env.m_agt[0].m_sqr.uvm_sequence
+  sequencer                    string        31    uvm_test_top.env.m_agt[0].m_sqr             
+-----------------------------------------------------------------------------------------------
+
+UVM_INFO ../sim_src/m_transation.sv(32) @ 205: uvm_test_top.env.m_agt[1].m_sqr@@uvm_sequence [SEQ] This transation's src addr is uvm_test_top.env.m_agt[1].m_sqr.uvm_sequence
+UVM_INFO ../sim_src/m_transation.sv(33) @ 205: uvm_test_top.env.m_agt[1].m_sqr@@uvm_sequence [SEQ] This transation's src addr is 1
+to check the this      140736886670832
+to check the this           1
+UVM_INFO ../sim_src/m_driver.sv(28) @ 205: uvm_test_top.env.m_agt[1].m_drv [DRV] got one item 
+ -----------------------------------------------------------------------------------------------
+Name                           Type          Size  Value                                       
+-----------------------------------------------------------------------------------------------
+req                            m_transation  -     @4590                                       
+  src                          integral      4     'h1                                         
+  dst                          integral      4     'h1                                         
+  data                         integral      8     'h9a                                        
+  begin_time                   time          64    205                                         
+  depth                        int           32    'd2                                         
+  parent sequence (name)       string        12    uvm_sequence                                
+  parent sequence (full name)  string        44    uvm_test_top.env.m_agt[1].m_sqr.uvm_sequence
+  sequencer                    string        31    uvm_test_top.env.m_agt[1].m_sqr             
+-----------------------------------------------------------------------------------------------
+
+
+Stop point #2 @ 215 ns;  
+Verdi>run
+Stop point #2 @ 225 ns;  
+Verdi>run
+UVM_INFO ../sim_src/m_monitor.sv(33) @ 305: uvm_test_top.env.m_agt[1].m_mon [monitor] The channel %0d start receive data
+
+Stop point #2 @ 335 ns;  
+Verdi>stop -line 52 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv 
+4
+Verdi>run
+Stop point #2 @ 345 ns;  
+Verdi>run
+Stop point #2 @ 355 ns;  
+Verdi>run
+Stop point #2 @ 365 ns;  
+Verdi>run
+Stop point #2 @ 375 ns;  
+Verdi>run
+UVM_INFO ../sim_src/m_driver.sv(35) @ 385: uvm_test_top.env.m_agt[1].m_drv [DRV] send one item 
+ ---------------------------------------
+Name          Type          Size  Value
+---------------------------------------
+req           m_transation  -     @4595
+  src         integral      4     'h1  
+  dst         integral      4     'h1  
+  data        integral      8     'hfe 
+  begin_time  time          64    205  
+---------------------------------------
+
+
+Stop point #2 @ 385 ns;  
+Verdi>run
+UVM_INFO ../sim_src/m_transation.sv(39) @ 385: uvm_test_top.env.m_agt[1].m_sqr@@uvm_sequence [SEQ] generate one item 
+ -----------------------------------------------------------------------------------------------
+Name                           Type          Size  Value                                       
+-----------------------------------------------------------------------------------------------
+req                            m_transation  -     @4590                                       
+  src                          integral      4     'h1                                         
+  dst                          integral      4     'h1                                         
+  data                         integral      8     'h9a                                        
+  begin_time                   time          64    205                                         
+  end_time                     time          64    385                                         
+  depth                        int           32    'd2                                         
+  parent sequence (name)       string        12    uvm_sequence                                
+  parent sequence (full name)  string        44    uvm_test_top.env.m_agt[1].m_sqr.uvm_sequence
+  sequencer                    string        31    uvm_test_top.env.m_agt[1].m_sqr             
+-----------------------------------------------------------------------------------------------
+
+UVM_INFO ../sim_src/m_transation.sv(32) @ 385: uvm_test_top.env.m_agt[2].m_sqr@@uvm_sequence [SEQ] This transation's src addr is uvm_test_top.env.m_agt[2].m_sqr.uvm_sequence
+UVM_INFO ../sim_src/m_transation.sv(33) @ 385: uvm_test_top.env.m_agt[2].m_sqr@@uvm_sequence [SEQ] This transation's src addr is 2
+to check the this      140736886672176
+to check the this           2
+UVM_INFO ../sim_src/m_driver.sv(28) @ 385: uvm_test_top.env.m_agt[2].m_drv [DRV] got one item 
+ -----------------------------------------------------------------------------------------------
+Name                           Type          Size  Value                                       
+-----------------------------------------------------------------------------------------------
+req                            m_transation  -     @4605                                       
+  src                          integral      4     'h2                                         
+  dst                          integral      4     'h2                                         
+  data                         integral      8     'h9a                                        
+  begin_time                   time          64    385                                         
+  depth                        int           32    'd2                                         
+  parent sequence (name)       string        12    uvm_sequence                                
+  parent sequence (full name)  string        44    uvm_test_top.env.m_agt[2].m_sqr.uvm_sequence
+  sequencer                    string        31    uvm_test_top.env.m_agt[2].m_sqr             
+-----------------------------------------------------------------------------------------------
+
+
+Stop point #2 @ 395 ns;  
+Verdi>run
+Stop point #2 @ 405 ns;  
+Verdi>run
+Stop point #4 @ 415 ns;  
+Verdi>next
+m_monitor.sv, 23 :       rev_port.put(req);
+Verdi>run
+UVM_INFO ../sim_src/m_monitor.sv(33) @ 485: uvm_test_top.env.m_agt[2].m_mon [monitor] The channel %0d start receive data
+
+Stop point #2 @ 515 ns;  
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 515 ns
+CPU Time:      3.770 seconds;       Data structure size:   1.0Mb
+Sun Nov 24 04:07:20 2024

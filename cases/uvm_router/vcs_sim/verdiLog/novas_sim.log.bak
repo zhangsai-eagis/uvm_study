@@ -1,0 +1,130 @@
+Verdi>restart
+Notice: timing checks disabled with +notimingcheck at compile-time
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version Q-2020.03-SP2-7_Full64; Runtime version Q-2020.03-SP2-7_Full64;  Nov  9 06:36 2024
+NOTE: automatic random seed used: 269245699
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+  ***********       IMPORTANT RELEASE NOTES         ************
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+*Verdi* Loading libsscore_vcs202003.so
+FSDB Dumper for VCS, Release Verdi_R-2020.12-SP1, Linux x86_64/64bit, 03/02/2021
+(C) 1996 - 2021 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file '/home/saizhang/sv_test/cases/uvm_router/vcs_sim/inter.fsdb'
+*Verdi* : Flush all FSDB Files at 0 ns.
+*Verdi* : Enable RPC Server(120703)
+*Verdi* : Flush all FSDB Files at 0 ns.
+Verdi>run
+*Verdi* Enable Verdi Message Catcher.
+*Verdi* : Begin dumping the Class Object by file (/usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/verdi/component.config).
+*Verdi* : End of class object dumping.
+UVM_INFO /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/verdi/uvm_custom_install_verdi_recorder.sv(274) @ 0: reporter [VERDI_TR_AUTO] +UVM_TR_RECORD implicitly enables recording_details to UVM_FULL for all components. For explicit control use +UVM_DISABLE_AUTO_COMPONENT and set recording_detail on components accordingly
+*Verdi* Enable Verdi Factory Dumping.
+UVM_INFO @ 0: reporter [RNTST] Running test m_test1...
+*Verdi* WARNING: Env/runtime option has specified fsdbfile name as "/home/saizhang/sv_test/cases/uvm_router/vcs_sim/inter.fsdb". Fsdbfile name in task "Tb.fsdb" is ignored.
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+VCD+ Writer Q-2020.03-SP2-7_Full64 Copyright (c) 1991-2020 by Synopsys Inc.
+UVM_INFO ../sim_src/m_env.sv(19) @ 0: uvm_test_top.env [ENV] @                   0 ns
+*Verdi* Enable Verdi Recorder.
+Info: Verdi UVM 1.1d Hooks File 07/11/2013 
+UVM_INFO ../sim_src/m_driver.sv(23) @ 1: uvm_test_top.env.m_agt.m_drv [DRV] got one item 
+ --------------------------------------------------------------------------------------------
+Name                           Type          Size  Value                                    
+--------------------------------------------------------------------------------------------
+req                            m_transation  -     @645                                     
+  src                          integral      4     'h5                                      
+  dst                          integral      4     'h5                                      
+  data                         integral      8     'h55                                     
+  begin_time                   time          64    1                                        
+  depth                        int           32    'd2                                      
+  parent sequence (name)       string        12    uvm_sequence                             
+  parent sequence (full name)  string        41    uvm_test_top.env.m_agt.m_sqr.uvm_sequence
+  sequencer                    string        28    uvm_test_top.env.m_agt.m_sqr             
+--------------------------------------------------------------------------------------------
+
+UVM_INFO ../sim_src/m_driver.sv(37) @ 75: uvm_test_top.env.m_agt.m_drv [DRV] send one item 
+ ---------------------------------------
+Name          Type          Size  Value
+---------------------------------------
+req           m_transation  -     @673 
+  src         integral      4     'h5  
+  dst         integral      4     'h5  
+  data        integral      8     'hb9 
+  begin_time  time          64    1    
+---------------------------------------
+
+UVM_INFO ../sim_src/m_driver.sv(23) @ 76: uvm_test_top.env.m_agt.m_drv [DRV] got one item 
+ --------------------------------------------------------------------------------------------
+Name                           Type          Size  Value                                    
+--------------------------------------------------------------------------------------------
+req                            m_transation  -     @678                                     
+  src                          integral      4     'h9                                      
+  dst                          integral      4     'h5                                      
+  data                         integral      8     'h59                                     
+  begin_time                   time          64    76                                       
+  depth                        int           32    'd2                                      
+  parent sequence (name)       string        12    uvm_sequence                             
+  parent sequence (full name)  string        41    uvm_test_top.env.m_agt.m_sqr.uvm_sequence
+  sequencer                    string        28    uvm_test_top.env.m_agt.m_sqr             
+--------------------------------------------------------------------------------------------
+
+UVM_INFO ../sim_src/m_driver.sv(37) @ 155: uvm_test_top.env.m_agt.m_drv [DRV] send one item 
+ ---------------------------------------
+Name          Type          Size  Value
+---------------------------------------
+req           m_transation  -     @682 
+  src         integral      4     'h9  
+  dst         integral      4     'h5  
+  data        integral      8     'hbd 
+  begin_time  time          64    76   
+---------------------------------------
+
+UVM_INFO ../sim_src/m_env.sv(21) @ 155: uvm_test_top.env [ENV] @                 155 ns
+UVM_INFO /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/base/uvm_objection.svh(1274) @ 155: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    9
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[DRV]     4
+[ENV]     2
+[RNTST]     1
+[TEST_DONE]     1
+[VERDI_TR_AUTO]     1
+$finish called from file "/usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/base/uvm_root.svh", line 437.
+$finish at simulation time                  155
+Simulation complete, time is 155 ns.
+uvm_root.svh, 437 :     $finish;
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 155 ns
+CPU Time:      0.460 seconds;       Data structure size:   0.6Mb
+Sat Nov  9 06:37:58 2024
+debExit

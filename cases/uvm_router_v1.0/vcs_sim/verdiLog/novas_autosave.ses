@@ -1,0 +1,85 @@
+@verdi rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_R-2020.12-SP1
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[OneSearch]
+isExisted = TRUE
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+Console = TRUE
+TBHierShow = 1
+TBHierSelectedNode = uvm_test_top
+TBHierHasData = 1
+powerDumped = 0
+breakpoint_count = 1
+BP1 = stop -line 36 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_transation.sv
+[fusa]
+fdb_server = 
+fdb_proj = 
+fdb_campaign = 
+fdb_tool = 
+[hb]
+postSimFile = /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/inter.fsdb
+syncTime = 1015
+viewport = 0 27 1718 815 0 0 250 1716
+activeNode = "uvm_custom_install_verdi_recording.retrieve_mem_map_info._map.m_sequencer"
+activeScope = "flat_sequence"
+activeFile = "../sim_src/m_transation.sv#inc___vcs_unit__1__153#"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 23
+baMode = False
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+powerAwareAnnot = True
+safetyAwareAnnot = True
+amsAnnot = True
+DnDtraceCrossHierOnly = True
+leadingZero = False
+signalPane = False
+SourceVerticalScrollLines = 5
+Scope1 = "flat_sequence"
+Scope2 = "body"
+Scope3 = "uvm_custom_install_verdi_recording.retrieve_mem_map_info._map.m_sequencer.m_wait_arb_not_equal"
+Scope4 = "uvm_sequence"
+Scope5 = "m_run_phases"
+Scope6 = "execute_phase"
+Scope7 = "execute"
+Scope8 = "uvm_custom_install_verdi_recording.record_reghier_field.unnamed$$_0._parent_regfile.parent.get_registers.regs.get_default_map.unnamed$$_0.map.get_reg_map_info.rg.get_local_map.map.get_registers.regs.get_fields.fields.get_access.map.m_adapter.m_item.local_\
+map.m_regs_by_offset.m_fields.m_parent.get_rights.info.frontdoor.sequencer.lock_list.response_queue.m_parent_sequence.starting_phase.m_get_transitive_children.phases.execute_phase"
+Scope9 = "uvm_custom_install_verdi_recording.record_reghier_field.unnamed$$_0._parent_regfile.parent.get_registers.regs.get_default_map.unnamed$$_0.map.get_reg_map_info.rg.get_local_map.map.get_registers.regs.get_fields.fields.get_access.map.m_adapter.m_item.local_\
+map.m_regs_by_offset.m_fields.m_parent.get_rights.info.frontdoor.sequencer.lock_list.response_queue.m_parent_sequence.starting_phase.m_get_transitive_children.phases.m_run_phases"
+Scope10 = "uvm_custom_install_verdi_recording.record_reghier_field.unnamed$$_0._parent_regfile.parent.get_registers.regs.get_default_map.unnamed$$_0.map.get_reg_map_info.rg.get_local_map.map.get_registers.regs.get_fields.fields.get_access.map.m_adapter.m_item.local_\
+map.m_regs_by_offset.m_fields.m_parent.get_rights.info.frontdoor.sequencer.lock_list.response_queue.m_parent_sequence.start_item"
+multipleSelection = 1 37 2 0 0
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "-simflow" "-dbdir" "./simv.daidir" 
+invokeDir = /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim
+[hb.sourceTab.1]
+scope = flat_sequence
+File = /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_transation.sv#inc___vcs_unit__1__153#
+Line = 24
+[nMemoryManager]
+WaveformFile = /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/inter.fsdb
+UserActionNum = 0
+nMemWindowNum = 0

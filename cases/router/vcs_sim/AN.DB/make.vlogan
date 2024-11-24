@@ -1,0 +1,12 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= -kdb -sverilog -full64 +incdir+../dut_src -full64
+
+all :		_VCSgd_AXqv9c_1.db \
+
+
+
+_VCSgd_AXqv9c_1.db :	../dut_src/router.v 
+		${VLOGAN}  ${VLOGAN_OPT} ../dut_src/router.v
+
+

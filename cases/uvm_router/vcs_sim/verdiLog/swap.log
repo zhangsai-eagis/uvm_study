@@ -1,0 +1,51 @@
+version: (200506)
+
+available memory: 64M bytes
+used memory: 499712 bytes [need 488K bytes if disable swap]
+
+used block: 26 [memory(26) file(0)]
+                 [ 8K(21) 64K(5) { total 488K bytes } ]
+overhead: (9555) bytes for (26) blocks [Average: (367) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 5(times) 184K(bytes) [34K bytes compressed data from file]
+access => 573614(times) 4542M(bytes)
+          [hit ratio: 99.9991%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/home/saizhang/sv_test/cases/uvm_router/vcs_sim/verdiLog)
+used swap file number: (6)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (7)
+closeHead: (1)
+closeTail: (6)
+openCnt: (5)
+fid(6): fd(1073741827) fileName(/home/saizhang/sv_test/cases/uvm_router/vcs_sim/simv.daidir/kdb.elab++/work.lib++/uvm_root.svh#inc__uvm_pkg__57#.tdc)
+	size(37356) lastModTime(1731237483) curModTime(1731237483)
+	mode(rb)	hot(0) cool(5) pos(0)
+fid(5): fd(1073741826) fileName(/home/saizhang/sv_test/cases/uvm_router/vcs_sim/simv.daidir/kdb.elab++/work.lib++/router.v.tdc)
+	size(19011) lastModTime(1731237483) curModTime(1731237483)
+	mode(rb)	hot(6) cool(4) pos(0)
+fid(4): fd(1073741825) fileName(/home/saizhang/sv_test/cases/uvm_router/vcs_sim/simv.daidir/kdb.elab++/work.lib++/uvm_pkg.sv.tdc)
+	size(2224) lastModTime(1731237483) curModTime(1731237483)
+	mode(rb)	hot(5) cool(2) pos(0)
+fid(3): fd(0) fileName(/home/saizhang/sv_test/cases/uvm_router/vcs_sim/simv.daidir/kdb.elab++/work.lib++/uvm_custom_install_verdi_recorder.sv.tdc)
+	size(15189) lastModTime(1731237483) curModTime(1731237483)
+	mode(rb)	hot(0) cool(0) pos(0)
+fid(2): fd(33) fileName(/home/saizhang/sv_test/cases/uvm_router/vcs_sim/verdiLog/_swap_0001#8323328#16134)
+	size(0) lastModTime(0) curModTime(1731237533)
+	mode(w+b)	hot(4) cool(1) pos(0)
+fid(1): fd(1073741824) fileName(/home/saizhang/sv_test/cases/uvm_router/vcs_sim/simv.daidir/kdb.elab++/work.lib++/tb.v.tdc)
+	size(3708) lastModTime(1731237483) curModTime(1731237483)
+	mode(rb)	hot(2) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+==================================================
+mySelf(177856b0) pre(17776fd0) next(0)
+version(200506)
+date(Jul  4 2021 20:40:57)

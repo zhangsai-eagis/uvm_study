@@ -1,0 +1,2082 @@
+Command: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/simv +ntb_random_seed_automatic +UVM_TESTNAME=m_test1 verdi +UVM_VERDI_TRACE=UVM_AWARE+RAL+HIER+COMPWAVE +UVM_TR_RECORD -sml=verdi +fsdb+gate=off -ucli2Proc -ucli -l /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+Notice: timing checks disabled with +notimingcheck at compile-time
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version Q-2020.03-SP2-7_Full64; Runtime version Q-2020.03-SP2-7_Full64;  Nov 23 22:31 2024
+NOTE: automatic random seed used: 3697362194
+<slp!&*()_+>
+----------------------------------------------------------------
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/base/uvm_root.svh<sls!&*()_+>line: 316<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+UVM-1.1d.Synopsys
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/base/uvm_root.svh<sls!&*()_+>line: 316<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+(C) 2007-2013 Mentor Graphics Corporation
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/base/uvm_root.svh<sls!&*()_+>line: 316<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+(C) 2007-2013 Cadence Design Systems, Inc.
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/base/uvm_root.svh<sls!&*()_+>line: 316<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+(C) 2006-2013 Synopsys, Inc.
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/base/uvm_root.svh<sls!&*()_+>line: 316<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+(C) 2011-2013 Cypress Semiconductor Corp.
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/base/uvm_root.svh<sls!&*()_+>line: 316<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+----------------------------------------------------------------
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/base/uvm_root.svh<sls!&*()_+>line: 316<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+  ***********       IMPORTANT RELEASE NOTES         ************
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/base/uvm_root.svh<sls!&*()_+>line: 316<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+  You are using a version of the UVM library that has been compiled
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/base/uvm_root.svh<sls!&*()_+>line: 316<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+  with `UVM_NO_DEPRECATED undefined.
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/base/uvm_root.svh<sls!&*()_+>line: 316<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/base/uvm_root.svh<sls!&*()_+>line: 316<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+  You are using a version of the UVM library that has been compiled
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/base/uvm_root.svh<sls!&*()_+>line: 316<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/base/uvm_root.svh<sls!&*()_+>line: 316<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/base/uvm_root.svh<sls!&*()_+>line: 316<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/base/uvm_root.svh<sls!&*()_+>line: 316<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+
+ucli% loaddl -simv /usr/Synopsys/verdi/R-2020.12-SP1/share/PLI/VCS/LINUXAMD64/libnovas.so LoadFSDBDumpCmd;LoadFSDBDumpCmd
+LoadFSDBDumpCmd success
+ucli% config ckptfsdbcheck off;config endofsim noexit;config onfail {enable all};config followactivescope on;catch {setUcliVerdiConnected};set watch::resultTagsForVerdiBP {<ucli_break_bp_status_begin> <ucli_break_bp_status_end>};cbug::config pretty_print auto;fsdbDumpfile {/home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/inter.fsdb} ;fsdbDumpflush ; 
+*Verdi* Loading libsscore_vcs202003.so
+FSDB Dumper for VCS, Release Verdi_R-2020.12-SP1, Linux x86_64/64bit, 03/02/2021
+(C) 1996 - 2021 by Synopsys, Inc.
+*Verdi* : Create FSDB file '/home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/inter.fsdb'
+*Verdi* : Flush all FSDB Files at 0 ns.
+
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% sps_interactive
+*Verdi* : Enable RPC Server(121414)
+
+ucli% ucliCore::getToolPID
+121414
+ucli% ucliCore::getToolPID
+121414
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% puts $ucliCore::nativeUcliMode
+0
+
+ucli% ucliCore::getToolTopPID
+121414
+ucli% pid
+121425
+ucli% synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.saizhang.121414 }
+
+ucli% if { [info vars watch::vcbp_str_len_limit_of_get_value] != ""} {set watch::vcbp_str_len_limit_of_get_value 1024}
+1024
+ucli% info command stateVerdiChangeCB
+
+ucli% proc stateVerdiChangeCB args { if {$ucliGUI::state eq "terminated"} {puts "\n<VERDI_Terminated>\n";catch {setVerdiSimTerminated}}}
+
+ucli% trace variable ucliGUI::state wu stateVerdiChangeCB
+
+ucli% if {[catch {rename synopsys::restore verdiHack::restore} ]} {puts "0"}
+
+ucli% proc synopsys::restore {args} { verdiHack::restore $args; puts "\n<VERDI_RESTORE>\n"}
+
+ucli% if {[catch {rename quit verdiHack::quit} ]} {puts "0"}
+
+ucli% proc quit {args} { if {[string length $args] == 0} { verdiHack::quit; } elseif {([string equal "-h" $args] == 1)||([string equal "-he" $args] == 1)||([string equal "-hel" $args] == 1)||([string equal "-help" $args] == 1)} { puts "\n quit           # Exit the simulation.\n \[-noprompt\]        (Exit the simulation and Verdi.)\n"} elseif {([string equal "-n" $args] == 1)||([string equal "-no" $args] == 1)||([string equal "-nop" $args] == 1)||([string equal "-nopr" $args] == 1)||([string equal "-nopro" $args] == 1)||([string equal "-noprom" $args] == 1)||([string equal "-nopromp" $args] == 1)||([string equal "-noprompt" $args] == 1)} { puts "\nVERDI_EXIT_N\n" } else { verdiHack::quit $args; } }
+
+ucli% if {[catch {rename exit verdiHack::exit} ]} {puts "0"}
+
+ucli% proc exit {args} { if {[string length $args] == 0} { verdiHack::exit; } elseif {([string equal "-h" $args] == 1)||([string equal "-he" $args] == 1)||([string equal "-hel" $args] == 1)||([string equal "-help" $args] == 1)} { puts "\n exit           # Exit the simulation.\n \[-noprompt\]        (Exit the simulation and Verdi.)\n"} elseif {([string equal "-n" $args] == 1)||([string equal "-no" $args] == 1)||([string equal "-nop" $args] == 1)||([string equal "-nopr" $args] == 1)||([string equal "-nopro" $args] == 1)||([string equal "-noprom" $args] == 1)||([string equal "-nopromp" $args] == 1)||([string equal "-noprompt" $args] == 1)} { puts "\nVERDI_EXIT_N\n" } else { verdiHack::exit $args; } }
+
+ucli% proc checkpoint::beforeRecreate {} { sps_interactive }
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% info procs
+ipi_get_str fsdbDumpMDAByFile fsdbDumpMDA echo fsdbDumpMemNow fsdbAutoSwitchDumpfile unknown sps_interactive auto_import stat fsdbDumpfile setenv auto_execok pkg_mkIndex stateVerdiChangeCB fsdbDumpSingle proc_body ipi_begin fsdbDumpoff getenv fsdbDumplimit fsdbDumpPattern ipi_handle fsdbDumpvarsByFile fsdbDumpMDAInScope lminus ipi_sim_get ls auto_load_index proc_args fsdbAddRuntimeSignal fsdbDumpSC print_message_info ridbDump fsdbDumpSVAoff fsdbSuppress fsdbDumpvars help fsdbDumpMDAOnChange ipi_control auto_qualify fsdbDumpMem tclPkgUnknown printenv ipi_handle_by_name helpdoc fsdbDumpMemInScope fsdbDumpFinish is_true fsdbDumpon sh fsdbQueryInfo LoadFSDBDumpCmd fsdbDumpPSL fsdbDumpSVA ipi_end wrapperSpecmanSn fsdbDumpSVAon fsdbDumpClassObjectByFile is_false auto_load fsdbDumpPSLon ipi_get_int64 fsdbSubstituteHier ipi_get_value ipi_iterate exit fsdbDumpMemInFile tclLog fsdbDumpflush get_unix_variable mem_debug ipi_scan fsdbDumpPSLoff fsdbDumpClassObject fsdbDumpvarsToFile set_unix_variable bgerror fsdbDumpStrength clock add_group fsdbSwitchDumpfile source add_wave unsetenv fsdbDumpvarsES readline fsdbDisplay ipi_handle_free set_group ipi_get quit define_proc_attributes tclPkgSetup fsdbDumpMDANow ipi_init_play_tcl fsdbDumpIO
+ucli% set ucliCore::resultTagsForVerdi [list <?special_verdi_begin?> <?special_verdi_end?>]
+<?special_verdi_begin?> <?special_verdi_end?>
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpvars 0 "tb.dut.rts0.frame_n"  +all +trace_process;fsdbDumpvars 0 "tb.dut.rts0.clock"  +all +trace_process;fsdbDumpvars 0 "tb.dut.rts0.din"  +all +trace_process;fsdbDumpvars 0 "tb.dut.rts0.frameo_n"  +all +trace_process;fsdbDumpvars 0 "tb.dut.rts0.dout"  +all +trace_process;fsdbDumpvars 0 "tb.dut.frame_n"  +all +trace_process;fsdbDumpvars 0 "tb.dut.valid_n"  +all +trace_process;fsdbDumpvars 0 "tb.dut.din"  +all +trace_process;fsdbDumpvars 0 "tb.dut.frameo_n"  +all +trace_process;fsdbDumpvars 0 "tb.dut.valido_n"  +all +trace_process;fsdbDumpvars 0 "tb.dut.dout"  +all +trace_process;fsdbDumpvars 0 "tb.dut.busy_n"  +all +trace_process
+*Verdi* : Dumping the signal (tb.dut.rts0.frame_n).
+*Verdi* : Dumping the signal (tb.dut.rts0.clock).
+*Verdi* : Dumping the signal (tb.dut.rts0.din).
+*Verdi* : Dumping the signal (tb.dut.rts0.frameo_n).
+*Verdi* : Dumping the signal (tb.dut.rts0.dout).
+*Verdi* : Dumping the signal (tb.dut.frame_n).
+*Verdi* : Dumping the signal (tb.dut.valid_n).
+*Verdi* : Dumping the signal (tb.dut.din).
+*Verdi* : Dumping the signal (tb.dut.frameo_n).
+*Verdi* : Dumping the signal (tb.dut.valido_n).
+*Verdi* : Dumping the signal (tb.dut.dout).
+*Verdi* : Dumping the signal (tb.dut.busy_n).
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 0 ns.
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 0 ns.
+
+ucli% senv
+activeDomain: Verilog
+activeFile: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/uvm_pkg.sv
+activeFrame: -1
+activeLine: 27
+activeScope: uvm_pkg
+activeThread: 0
+endCol: 0
+file: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/uvm_pkg.sv
+frame: -1
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 27
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: uvm_pkg
+startCol: 0
+state: stopped
+thread: 0
+time: 0
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+No stop points are set
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+1
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+2
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 0 ns.
+
+ucli% senv
+activeDomain: Verilog
+activeFile: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/uvm_pkg.sv
+activeFrame: -1
+activeLine: 27
+activeScope: uvm_pkg
+activeThread: 0
+endCol: 0
+file: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/uvm_pkg.sv
+frame: -1
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 27
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: uvm_pkg
+startCol: 0
+state: stopped
+thread: 0
+time: 0
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% run
+<slp!&*()_+>
+*Verdi* Enable Verdi Message Catcher.
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/verdi/uvm_verdi_message_catcher.svh<sls!&*()_+>line: 348<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+*Verdi* : Begin dumping the Class Object by file (/usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/verdi/component.config).
+*Verdi* : End of class object dumping.
+<slp!&*()_+>
+UVM_INFO /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/verdi/uvm_custom_install_verdi_recorder.sv(274) @ 0: reporter [VERDI_TR_AUTO] +UVM_TR_RECORD implicitly enables recording_details to UVM_FULL for all components. For explicit control use +UVM_DISABLE_AUTO_COMPONENT and set recording_detail on components accordingly
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/base/uvm_root.svh<sls!&*()_+>line: 279<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+*Verdi* Enable Verdi Factory Dumping.
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/base/uvm_root.svh<sls!&*()_+>line: 390<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+UVM_INFO @ 0: reporter [RNTST] Running test m_test1...
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/base/uvm_root.svh<sls!&*()_+>line: 279<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+*Verdi* WARNING: Env/runtime option has specified fsdbfile name as "/home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/inter.fsdb". Fsdbfile name in task "Tb.fsdb" is ignored.
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+VCD+ Writer Q-2020.03-SP2-7_Full64 Copyright (c) 1991-2020 by Synopsys Inc.
+<slp!&*()_+>
+UVM_INFO ../sim_src/m_env.sv(39) @ 0: uvm_test_top.env [ENV] @                   0 ns
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: ../sim_src/m_env.sv<sls!&*()_+>line: 39<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+*Verdi* Enable Verdi Recorder.
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/verdi/uvm_verdi_recorder.svh<sls!&*()_+>line: 150<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+Info: Verdi UVM 1.1d Hooks File 07/11/2013 
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: /usr/Synopsys/vcs/Q-2020.03-SP2-7/etc/uvm-1.1/verdi/uvm_verdi_recorder.svh<sls!&*()_+>line: 193<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+UVM_INFO ../sim_src/m_transation.sv(32) @ 0: uvm_test_top.env.m_agt[0].m_sqr@@uvm_sequence [SEQ] This transation's src addr is uvm_test_top.env.m_agt[0].m_sqr.uvm_sequence
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: ../sim_src/m_transation.sv<sls!&*()_+>line: 32<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+UVM_INFO ../sim_src/m_transation.sv(33) @ 0: uvm_test_top.env.m_agt[0].m_sqr@@uvm_sequence [SEQ] This transation's src addr is 0
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: ../sim_src/m_transation.sv<sls!&*()_+>line: 33<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+to check the this      140736886669680
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: ../sim_src/m_transation.sv<sls!&*()_+>line: 34<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+to check the this           0
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: ../sim_src/m_transation.sv<sls!&*()_+>line: 35<sls!&*()_+>time: 0 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+UVM_INFO ../sim_src/m_driver.sv(28) @ 1: uvm_test_top.env.m_agt[0].m_drv [DRV] got one item 
+ -----------------------------------------------------------------------------------------------
+Name                           Type          Size  Value                                       
+-----------------------------------------------------------------------------------------------
+req                            m_transation  -     @4195                                       
+  src                          integral      4     'h0                                         
+  dst                          integral      4     'h0                                         
+  data                         integral      8     'h9a                                        
+  begin_time                   time          64    1                                           
+  depth                        int           32    'd2                                         
+  parent sequence (name)       string        12    uvm_sequence                                
+  parent sequence (full name)  string        44    uvm_test_top.env.m_agt[0].m_sqr.uvm_sequence
+  sequencer                    string        31    uvm_test_top.env.m_agt[0].m_sqr             
+-----------------------------------------------------------------------------------------------
+
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: ../sim_src/m_driver.sv<sls!&*()_+>line: 28<sls!&*()_+>time: 1 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+UVM_INFO ../sim_src/m_monitor.sv(33) @ 125: uvm_test_top.env.m_agt[0].m_mon [monitor] The channel %0d start receive data
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: ../sim_src/m_monitor.sv<sls!&*()_+>line: 33<sls!&*()_+>time: 125 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+
+Stop point #3 @ 125 ns;  
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 125 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 5
+activeLine: 46
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+activeThread: 58
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 5
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 46
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 58
+time: 125
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% next
+m_monitor.sv, 49 :     @(posedge dut_if.clk);
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 125 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 5
+activeLine: 49
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+activeThread: 58
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 5
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 49
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 58
+time: 125
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% next
+router.v, 157 :     assign dout[0] =
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 125 ns.
+
+ucli% senv
+activeDomain: Verilog
+activeFile: ../dut_src/router.v
+activeFrame: -1
+activeLine: 157
+activeScope: tb.dut.rts0
+activeThread: 0
+endCol: 0
+file: ../dut_src/router.v
+frame: -1
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 157
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: tb.dut.rts0
+startCol: 0
+state: stopped
+thread: 0
+time: 125
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../dut_src/router.v
+../dut_src/router.v
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% run
+
+Stop point #3 @ 135 ns;  
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 135 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 5
+activeLine: 46
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+activeThread: 58
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 5
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 46
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 58
+time: 135
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% run
+
+Stop point #3 @ 145 ns;  
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 145 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 5
+activeLine: 46
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+activeThread: 58
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 5
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 46
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 58
+time: 145
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% next
+m_monitor.sv, 49 :     @(posedge dut_if.clk);
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 145 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 5
+activeLine: 49
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+activeThread: 58
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 5
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 49
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 58
+time: 145
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% next
+tb.v, 87 :     input  dout;
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 145 ns.
+
+ucli% senv
+activeDomain: Verilog
+activeFile: ../sim_src/tb.v
+activeFrame: -1
+activeLine: 87
+activeScope: tb.dut_if
+activeThread: 0
+endCol: 0
+file: ../sim_src/tb.v
+frame: -1
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 87
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: tb.dut_if
+startCol: 0
+state: stopped
+thread: 0
+time: 145
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/tb.v
+../sim_src/tb.v
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% run
+
+Stop point #3 @ 155 ns;  
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 155 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 5
+activeLine: 46
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+activeThread: 58
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 5
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 46
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 58
+time: 155
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% run
+
+Stop point #2 @ 155 ns;  
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 155 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 5
+activeLine: 47
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+activeThread: 58
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 5
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 47
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 58
+time: 155
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop -disable 3
+3
+ucli% stop -show 3
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% run
+
+Stop point #2 @ 165 ns;  
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 165 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 5
+activeLine: 47
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+activeThread: 58
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 5
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 47
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 58
+time: 165
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% run
+
+Stop point #2 @ 175 ns;  
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 175 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 5
+activeLine: 47
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+activeThread: 58
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 5
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 47
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 58
+time: 175
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% run
+
+Stop point #2 @ 185 ns;  
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 185 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 5
+activeLine: 47
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+activeThread: 58
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 5
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 47
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 58
+time: 185
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% run
+
+Stop point #2 @ 195 ns;  
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 195 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 5
+activeLine: 47
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+activeThread: 58
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 5
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 47
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 58
+time: 195
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% run
+<slp!&*()_+>
+UVM_INFO ../sim_src/m_driver.sv(35) @ 205: uvm_test_top.env.m_agt[0].m_drv [DRV] send one item 
+ ---------------------------------------
+Name          Type          Size  Value
+---------------------------------------
+req           m_transation  -     @4584
+  src         integral      4     'h0  
+  dst         integral      4     'h0  
+  data        integral      8     'hfe 
+  begin_time  time          64    1    
+---------------------------------------
+
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: ../sim_src/m_driver.sv<sls!&*()_+>line: 35<sls!&*()_+>time: 205 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+
+Stop point #2 @ 205 ns;  
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 205 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 5
+activeLine: 47
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+activeThread: 58
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 5
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 47
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 58
+time: 205
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% run
+<slp!&*()_+>
+UVM_INFO ../sim_src/m_transation.sv(39) @ 205: uvm_test_top.env.m_agt[0].m_sqr@@uvm_sequence [SEQ] generate one item 
+ -----------------------------------------------------------------------------------------------
+Name                           Type          Size  Value                                       
+-----------------------------------------------------------------------------------------------
+req                            m_transation  -     @4195                                       
+  src                          integral      4     'h0                                         
+  dst                          integral      4     'h0                                         
+  data                         integral      8     'h9a                                        
+  begin_time                   time          64    1                                           
+  end_time                     time          64    205                                         
+  depth                        int           32    'd2                                         
+  parent sequence (name)       string        12    uvm_sequence                                
+  parent sequence (full name)  string        44    uvm_test_top.env.m_agt[0].m_sqr.uvm_sequence
+  sequencer                    string        31    uvm_test_top.env.m_agt[0].m_sqr             
+-----------------------------------------------------------------------------------------------
+
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: ../sim_src/m_transation.sv<sls!&*()_+>line: 39<sls!&*()_+>time: 205 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+UVM_INFO ../sim_src/m_transation.sv(32) @ 205: uvm_test_top.env.m_agt[1].m_sqr@@uvm_sequence [SEQ] This transation's src addr is uvm_test_top.env.m_agt[1].m_sqr.uvm_sequence
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: ../sim_src/m_transation.sv<sls!&*()_+>line: 32<sls!&*()_+>time: 205 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+UVM_INFO ../sim_src/m_transation.sv(33) @ 205: uvm_test_top.env.m_agt[1].m_sqr@@uvm_sequence [SEQ] This transation's src addr is 1
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: ../sim_src/m_transation.sv<sls!&*()_+>line: 33<sls!&*()_+>time: 205 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+to check the this      140736886670832
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: ../sim_src/m_transation.sv<sls!&*()_+>line: 34<sls!&*()_+>time: 205 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+to check the this           1
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: ../sim_src/m_transation.sv<sls!&*()_+>line: 35<sls!&*()_+>time: 205 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+UVM_INFO ../sim_src/m_driver.sv(28) @ 205: uvm_test_top.env.m_agt[1].m_drv [DRV] got one item 
+ -----------------------------------------------------------------------------------------------
+Name                           Type          Size  Value                                       
+-----------------------------------------------------------------------------------------------
+req                            m_transation  -     @4590                                       
+  src                          integral      4     'h1                                         
+  dst                          integral      4     'h1                                         
+  data                         integral      8     'h9a                                        
+  begin_time                   time          64    205                                         
+  depth                        int           32    'd2                                         
+  parent sequence (name)       string        12    uvm_sequence                                
+  parent sequence (full name)  string        44    uvm_test_top.env.m_agt[1].m_sqr.uvm_sequence
+  sequencer                    string        31    uvm_test_top.env.m_agt[1].m_sqr             
+-----------------------------------------------------------------------------------------------
+
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: ../sim_src/m_driver.sv<sls!&*()_+>line: 28<sls!&*()_+>time: 205 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+
+Stop point #2 @ 215 ns;  
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 215 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 5
+activeLine: 47
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+activeThread: 58
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 5
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 47
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 58
+time: 215
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% run
+
+Stop point #2 @ 225 ns;  
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 225 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 5
+activeLine: 47
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+activeThread: 58
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 5
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 47
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 58
+time: 225
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% run
+<slp!&*()_+>
+UVM_INFO ../sim_src/m_monitor.sv(33) @ 305: uvm_test_top.env.m_agt[1].m_mon [monitor] The channel %0d start receive data
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: ../sim_src/m_monitor.sv<sls!&*()_+>line: 33<sls!&*()_+>time: 305 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+
+Stop point #2 @ 335 ns;  
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 335 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 5
+activeLine: 47
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+activeThread: 198
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 5
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 47
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 198
+time: 335
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop -line 52 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv 
+4
+ucli% stop -show 4
+4: -line 52 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% run
+
+Stop point #2 @ 345 ns;  
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 345 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 5
+activeLine: 47
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+activeThread: 198
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 5
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 47
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 198
+time: 345
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+4: -line 52 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% run
+
+Stop point #2 @ 355 ns;  
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 355 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 5
+activeLine: 47
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+activeThread: 198
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 5
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 47
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 198
+time: 355
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+4: -line 52 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% run
+
+Stop point #2 @ 365 ns;  
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 365 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 5
+activeLine: 47
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+activeThread: 198
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 5
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 47
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 198
+time: 365
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+4: -line 52 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% run
+
+Stop point #2 @ 375 ns;  
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 375 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 5
+activeLine: 47
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+activeThread: 198
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 5
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 47
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 198
+time: 375
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+4: -line 52 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% run
+<slp!&*()_+>
+UVM_INFO ../sim_src/m_driver.sv(35) @ 385: uvm_test_top.env.m_agt[1].m_drv [DRV] send one item 
+ ---------------------------------------
+Name          Type          Size  Value
+---------------------------------------
+req           m_transation  -     @4595
+  src         integral      4     'h1  
+  dst         integral      4     'h1  
+  data        integral      8     'hfe 
+  begin_time  time          64    205  
+---------------------------------------
+
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: ../sim_src/m_driver.sv<sls!&*()_+>line: 35<sls!&*()_+>time: 385 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+
+Stop point #2 @ 385 ns;  
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 385 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 5
+activeLine: 47
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+activeThread: 198
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 5
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 47
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 198
+time: 385
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+4: -line 52 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% run
+<slp!&*()_+>
+UVM_INFO ../sim_src/m_transation.sv(39) @ 385: uvm_test_top.env.m_agt[1].m_sqr@@uvm_sequence [SEQ] generate one item 
+ -----------------------------------------------------------------------------------------------
+Name                           Type          Size  Value                                       
+-----------------------------------------------------------------------------------------------
+req                            m_transation  -     @4590                                       
+  src                          integral      4     'h1                                         
+  dst                          integral      4     'h1                                         
+  data                         integral      8     'h9a                                        
+  begin_time                   time          64    205                                         
+  end_time                     time          64    385                                         
+  depth                        int           32    'd2                                         
+  parent sequence (name)       string        12    uvm_sequence                                
+  parent sequence (full name)  string        44    uvm_test_top.env.m_agt[1].m_sqr.uvm_sequence
+  sequencer                    string        31    uvm_test_top.env.m_agt[1].m_sqr             
+-----------------------------------------------------------------------------------------------
+
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: ../sim_src/m_transation.sv<sls!&*()_+>line: 39<sls!&*()_+>time: 385 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+UVM_INFO ../sim_src/m_transation.sv(32) @ 385: uvm_test_top.env.m_agt[2].m_sqr@@uvm_sequence [SEQ] This transation's src addr is uvm_test_top.env.m_agt[2].m_sqr.uvm_sequence
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: ../sim_src/m_transation.sv<sls!&*()_+>line: 32<sls!&*()_+>time: 385 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+UVM_INFO ../sim_src/m_transation.sv(33) @ 385: uvm_test_top.env.m_agt[2].m_sqr@@uvm_sequence [SEQ] This transation's src addr is 2
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: ../sim_src/m_transation.sv<sls!&*()_+>line: 33<sls!&*()_+>time: 385 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+to check the this      140736886672176
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: ../sim_src/m_transation.sv<sls!&*()_+>line: 34<sls!&*()_+>time: 385 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+to check the this           2
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: ../sim_src/m_transation.sv<sls!&*()_+>line: 35<sls!&*()_+>time: 385 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+<slp!&*()_+>
+UVM_INFO ../sim_src/m_driver.sv(28) @ 385: uvm_test_top.env.m_agt[2].m_drv [DRV] got one item 
+ -----------------------------------------------------------------------------------------------
+Name                           Type          Size  Value                                       
+-----------------------------------------------------------------------------------------------
+req                            m_transation  -     @4605                                       
+  src                          integral      4     'h2                                         
+  dst                          integral      4     'h2                                         
+  data                         integral      8     'h9a                                        
+  begin_time                   time          64    385                                         
+  depth                        int           32    'd2                                         
+  parent sequence (name)       string        12    uvm_sequence                                
+  parent sequence (full name)  string        44    uvm_test_top.env.m_agt[2].m_sqr.uvm_sequence
+  sequencer                    string        31    uvm_test_top.env.m_agt[2].m_sqr             
+-----------------------------------------------------------------------------------------------
+
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: ../sim_src/m_driver.sv<sls!&*()_+>line: 28<sls!&*()_+>time: 385 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+
+Stop point #2 @ 395 ns;  
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 395 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 5
+activeLine: 47
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+activeThread: 198
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 5
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 47
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 198
+time: 395
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+4: -line 52 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% run
+
+Stop point #2 @ 405 ns;  
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 405 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 5
+activeLine: 47
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+activeThread: 198
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 5
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 47
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 198
+time: 405
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+4: -line 52 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% run
+
+Stop point #4 @ 415 ns;  
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 415 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 4
+activeLine: 52
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt 
+activeThread: 198
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 4
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 52
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt 
+startCol: 0
+state: stopped
+thread: 198
+time: 415
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+4: -line 52 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% next
+m_monitor.sv, 23 :       rev_port.put(req);
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 415 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 3
+activeLine: 23
+activeScope: _vcs_unit__1498264980.\m_monitor::run_phase .unnamed$$_0
+activeThread: 198
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 3
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 23
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::run_phase .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 198
+time: 415
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+4: -line 52 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% run
+<slp!&*()_+>
+UVM_INFO ../sim_src/m_monitor.sv(33) @ 485: uvm_test_top.env.m_agt[2].m_mon [monitor] The channel %0d start receive data
+<slb!&*()_+>---<sls!&*()_+>loc: -1<sls!&*()_+>src: ../sim_src/m_monitor.sv<sls!&*()_+>line: 33<sls!&*()_+>time: 485 ns<sls!&*()_+>length: 0<sls!&*()_+>...<sls!&*()_+><sle!&*()_+>
+
+Stop point #2 @ 515 ns;  
+ucli% synEnv::hasFataled
+0
+ucli% ucliCore::getToolPID
+121414
+ucli% synEnv::isFinished
+0
+ucli% save::getUserdefinedProcs
+::stateVerdiChangeCB ::LoadFSDBDumpCmd
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% fsdbDumpflush 
+*Verdi* : Flush all FSDB Files at 515 ns.
+
+ucli% senv
+activeDomain: TB
+activeFile: ../sim_src/m_monitor.sv
+activeFrame: 5
+activeLine: 47
+activeScope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+activeThread: 218
+endCol: 0
+file: ../sim_src/m_monitor.sv
+frame: 5
+fsdbFilename: 
+hasTB: 1
+inputFilename: 
+keyFilename: ucli.key
+line: 47
+logFilename: /home/saizhang/sv_test/cases/uvm_router_v1.0/vcs_sim/verdiLog/sim.log
+macroIndex: -1
+macroOffset: -1
+pid: 121414
+scope: _vcs_unit__1498264980.\m_monitor::collect_one_pkt .unnamed$$_0
+startCol: 0
+state: stopped
+thread: 218
+time: 515
+timePrecision: 1 ns
+vcdFilename: 
+vpdFilename:
+ucli% synUtils::resolveSourceFilename ../sim_src/m_monitor.sv
+../sim_src/m_monitor.sv
+ucli% puts $::ucliCore::cbug_active
+0
+
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% checkpoint -list -all
+There are no checkpoints present.
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% stop
+1: -line 49 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+2: -line 47 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+3: -line 46 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv -disable
+4: -line 52 -file /home/saizhang/sv_test/cases/uvm_router_v1.0/sim_src/m_monitor.sv
+ucli% if {[catch {ucliCore::setFocus tool}]} {}
+
+ucli% finish; quit
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 515 ns
+CPU Time:      3.770 seconds;       Data structure size:   1.0Mb
+Sun Nov 24 04:07:20 2024
+
+<VERDI_Terminated>
+
